@@ -1,5 +1,14 @@
 # Building-smartcontracts-and-dapps-on-Solana-blockchain
 
+image Solana
+
+# Introduction
+
+# Prerequisites
+
+# Requirements
+
+# Body of Tutorial
 This Solana tutorial goes through a step by step process of setting up a development environment for Solana, writing and deploying smart contracts and my experiences.
 
 I settled on setting up a WSL (Windows Subsystem For Linux) Ubuntu version so that I could write the code in Windows and then just use a linux command line to compile the Rust smart contract to a .so file.
@@ -194,3 +203,5 @@ const confirmation = await solanaWeb3.sendAndConfirmTransaction(
 ```
 Finally we are going to interact with our smart contract by sending it some data. The code above creates a buffer from a string. Puts this into an instruction which is then sent using the sendAndConfirmTransaction function.
 This is sent from the original payerAccount which hopefully still has some funds left.
+
+# Conclusion
