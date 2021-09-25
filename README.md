@@ -1,6 +1,6 @@
 # Building-smartcontracts-and-dapps-on-Solana-blockchain
 
-image Solana
+![Uploading solana-logo.png…]()
 
 # Introduction
 
