@@ -13,13 +13,11 @@ In this tutorial we will develop a smart contract in Rust then compile it with C
 * Knowledge NodeJS
 * [Solana / web3.js](https://www.npmjs.com/package/@solana/web3.js) module
 # Body of Tutorial
-This Solana tutorial goes through a step by step process of setting up a development environment for Solana, writing and deploying smart contracts and my experiences.
+This Solana tutorial goes through a step by step process of setting up a development environment for Solana, writing and deploying smart contracts.
 
 I settled on setting up a WSL (Windows Subsystem For Linux) Ubuntu version so that I could write the code in Windows and then just use a linux command line to compile the Rust smart contract to a .so file.
 
-If you don’t have WSL set up already it’s a great tool and there are detailed instructions and a download link here:
-
-https://docs.microsoft.com/en-us/windows/wsl/install-win10
+If you don’t have WSL set up already it’s a great tool and there are detailed instructions and a download link here: https://docs.microsoft.com/en-us/windows/wsl/install-win10
 
 Once installed I setup nodejs, npm, python, rust and the solana sdk.
 Here are the commands:
@@ -44,12 +42,9 @@ cd example-helloworld/
 npm install
 npm run build:program-rust
 ```
-recommend is installing the Rust extension for VSCode or whatever editor you are using.
+Recommend is installing the Rust extension for VSCode or whatever editor you are using.
 
-So the basic workflow is develop a smart contract in Rust > Compile with Cargo > Deploy using NodeJS
-
-First Solana Smart Contract
-
+### First Solana Smart Contract
 I’d recommend taking a look at some of the example code provided by Solana labs here: https://github.com/solana-labs
 
 There’s a good introduction to coding with Rust here: https://www.rust-lang.org/learn
@@ -117,7 +112,7 @@ Finally we get to the good stuff where we “borrow” the existing appAccount d
 
 So the program increments the number stored in accountInfo.data.num_greets by one each time it is run.
 
-Deploying A Contract With NodeJS
+### Deploying A Contract With NodeJS
 
 You can deploy contracts via the command line but I found it much easier to have a script which takes a compiled .so file and deploys it.
 
