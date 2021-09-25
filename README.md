@@ -9,9 +9,9 @@ This high-performance blockchain provides the fully decentralized, secure, and h
 # Prerequisites
 In this tutorial we will develop a smart contract in Rust then compile it with Cargo and deploy it using NodeJS.
 # Requirements
-Knowledge of [Rust](https://www.rust-lang.org/learn)
-Knowledge NodeJS
-[Solana / web3.js](https://www.npmjs.com/package/@solana/web3.js) module
+* Knowledge of [Rust](https://www.rust-lang.org/learn)
+* Knowledge NodeJS
+* [Solana / web3.js](https://www.npmjs.com/package/@solana/web3.js) module
 # Body of Tutorial
 This Solana tutorial goes through a step by step process of setting up a development environment for Solana, writing and deploying smart contracts and my experiences.
 
