@@ -44,6 +44,11 @@ npm run build:program-rust
 ```
 Recommend is installing the Rust extension for VSCode or whatever editor you are using.
 
+### Memory Management On Solana
+The appAccount must have a fixed amount of memory to interact with the smart contract. This space must be paid for in SOL when the account is created.
+When developing a smart contract you need to figure out what data your contract needs to store and how to store it. I found that numerical data as in integers and floats is a lot easier than strings to store.
+So one u32 integar is 4 bytes as there are 8 bits to a byte. Lets say we want to store two numerical values as integars in the smart contract. We would need to allocate 8 bytes of storage space and then map out the first four bytes is an integar for x and the second four bytes is an integar for y.
+
 ### First Solana Smart Contract
 I’d recommend taking a look at some of the example code provided by Solana labs here: https://github.com/solana-labs
 
