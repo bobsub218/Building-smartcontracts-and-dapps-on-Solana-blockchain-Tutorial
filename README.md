@@ -12,6 +12,7 @@ In this tutorial we will develop a smart contract in Rust then compile it with C
 * Knowledge of [Rust](https://www.rust-lang.org/learn)
 * Knowledge NodeJS
 * [Solana / web3.js](https://www.npmjs.com/package/@solana/web3.js) module
+* [Solana SDK](https://github.com/solana-labs)
 # Body of Tutorial
 This Solana tutorial goes through a step by step process of setting up a development environment for Solana, writing and deploying smart contracts.
 
