@@ -3,11 +3,15 @@
 <img width="1034" alt="solana-logo" src="https://user-images.githubusercontent.com/73669069/134777355-a2f66222-e5a2-45b3-ba67-1ebe7c50b6b6.png">
 
 # Introduction
+Solana is a web-scale, open-source blockchain protocol that supports developers and institutions around the world to build decentralized applications (DApps) and marketplaces. Solana’s protocol is fast, secure, and censorship-resistant, which provides the flexibility of an open infrastructure required to build applications for mass adoption.
 
+This high-performance blockchain provides the fully decentralized, secure, and highly scalable infrastructure necessary for tomorrow’s DApps and decentralized marketplaces. It leverages a set of breakthrough computational technologies that can support thousands of nodes, allowing for transaction throughput to proportionally scale with network bandwidth.
 # Prerequisites
-
+In this tutorial we will develop a smart contract in Rust then compile it with Cargo and deploy it using NodeJS.
 # Requirements
-
+Knowledge of [Rust](https://www.rust-lang.org/learn)
+Knowledge NodeJS
+[Solana / web3.js](https://www.npmjs.com/package/@solana/web3.js) module
 # Body of Tutorial
 This Solana tutorial goes through a step by step process of setting up a development environment for Solana, writing and deploying smart contracts and my experiences.
 
@@ -181,7 +185,7 @@ await solanaWeb3.sendAndConfirmTransaction(
 );
 ```
 
-One quirk here is that we have to specify how much space is required for data when setting up the account. I used the buffer-layout module to map and calculate this for the space variable. For simple contracts this probably isn’t necessary.
+One quirk here is that we have to specify how much space is required for data when setting up the account. I used the [buffer-layout](https://www.npmjs.com/package/buffer-layout) module to map and calculate this for the space variable. For simple contracts this probably isn’t necessary.
 
 Note that this space is rented not purchased and the appAccount will need some SOL to pay the rental fees.
 ```
