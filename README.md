@@ -185,7 +185,7 @@ await solanaWeb3.sendAndConfirmTransaction(
 
 One quirk here is that we have to specify how much space is required for data when setting up the account. I used the [buffer-layout](https://www.npmjs.com/package/buffer-layout) module to map and calculate this for the space variable. For simple contracts this probably isn’t necessary.
 
-Note that this space is rented not purchased and the appAccount will need some SOL to pay the rental fees.
+#### ATTENTION! that this space is rented not purchased and the appAccount will need some SOL to pay the rental fees.
 ```
 const buffer = Buffer.from('hello solana', 'utf8');
 const instruction = new solanaWeb3.TransactionInstruction({
