@@ -206,5 +206,6 @@ Finally we are going to interact with our smart contract by sending it some data
 This is sent from the original payerAccount which hopefully still has some funds left.
 
 # Conclusion
-
-
+In this tutorial we started creating a working environment for development then we learned how to develop a smart contract for Solana and in the meantime we got familiar with the Solana SDK.
+Finally, we deployed the smartcontract, learning how to be cost-effective.
+I hope this tutorial has been helpful and I hope it helps someone to familiarize themselves with Solana’s blockchain.
