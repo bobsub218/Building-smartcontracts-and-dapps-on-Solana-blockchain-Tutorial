@@ -151,7 +151,7 @@ const programId = programAccount.publicKey;
 console.log('Program loaded to account', programId.toBase58());
 ```
 We read the file.so that we created using linux to compile our rust smart contract. 
-This is usually in ./target/deploy/whatever.so
+This is usually in ./target/deploy/whatever.so.
 We create another account for the programAccount and load the code, paying for the transaction and storage costs using the payerAccount we previously set up.
 
 Finally we print out the base58 version of the programId which is just the public key of the programAccount. The next step is to create a 3rd account for the app itself which will store any data required for the dApp.
