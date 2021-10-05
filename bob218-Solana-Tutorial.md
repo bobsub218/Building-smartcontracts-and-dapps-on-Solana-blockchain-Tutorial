@@ -205,6 +205,8 @@ const confirmation = await solanaWeb3.sendAndConfirmTransaction(
 Finally we are going to interact with our smart contract by sending it some data. The code above creates a buffer from a string. Puts this into an instruction which is then sent using the sendAndConfirmTransaction function.
 This is sent from the original payerAccount which hopefully still has some funds left.
 
+[Attached link for detailed files](https://github.com/bobsub218/Step-by-Step-with-Python)
+
 # Conclusion
 In this tutorial we started creating a working environment for development then we learned how to develop a smartcontract for Solana and in the meantime we got familiar with the Solana SDK.
 Finally, we deployed the smartcontract, learning how to be cost-effective.
